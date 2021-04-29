@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
       - name: bootcamp-python
-        image: gorerveli2/pythonapp:v$DOCKER_BUILD_NUMBER
+        image: ramozer/bapython:v$DOCKER_BUILD_NUMBER
         ports:
         - containerPort: 5000
